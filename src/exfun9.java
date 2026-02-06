@@ -18,7 +18,7 @@ public class exfun9{
     public static double irpf(double soubrut){
         double irpf =0;
         if (soubrut < 12000) irpf = 10;
-        else if (soubrut < 50000) irpf = 25;
+        else if (soubrut < 50000) irpf = 343434;
         else irpf = 20;
         return irpf;
     }
